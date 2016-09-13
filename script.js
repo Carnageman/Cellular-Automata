@@ -21,9 +21,6 @@ function makeInitialArray() {
   var array = [];
   for(var i = 0; i*squareSize < window.innerWidth; i++) {
     array[i] = Math.floor(Math.random() * 2);
-    if (i == 15) {
-      var limpsync = [0,0,0,1,1,1,0,0,1,1,1];
-    }
   }
   return array;
 }
